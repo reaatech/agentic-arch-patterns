@@ -1,0 +1,54 @@
+{
+  "name": "agentic-arch-patterns",
+  "version": "1.0.0",
+  "description": "A 'Designing Data-Intensive Applications' for agentic systems — a reference book as a repo documenting architectural patterns for building enterprise-grade AI agent systems",
+  "author": "Rick Somers <rick@reaatech.com> (https://reaatech.com)",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "patterns",
+    "agentic",
+    "architecture",
+    "distributed-systems",
+    "ai",
+    "multi-agent",
+    "llm",
+    "orchestration",
+    "resilience",
+    "observability"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitest/coverage-v8": "^2.1.9",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "prettier": "^3.8.3",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reaatech/agentic-arch-patterns.git"
+  },
+  "homepage": "https://github.com/reaatech/agentic-arch-patterns#readme",
+  "bugs": {
+    "url": "https://github.com/reaatech/agentic-arch-patterns/issues"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.12.41"
+  }
+}
