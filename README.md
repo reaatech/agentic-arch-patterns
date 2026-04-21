@@ -13,7 +13,7 @@ Building production AI agent systems requires more than just prompting an LLM. Y
 - **Security patterns** for enterprise requirements
 - **Observability patterns** for debugging complex flows
 
-This repo captures the architectural knowledge from building systems like [agent-mesh](../agent-mesh), [llm-router](../llm-router), and [classifier-evals](../classifier-evals).
+This repo captures the architectural knowledge from building systems like [agent-mesh](https://github.com/reaatech/agent-mesh), [llm-router](https://github.com/reaatech/llm-router), and [classifier-evals](https://github.com/reaatech/classifier-evals).
 
 ## Quick Navigation
 
