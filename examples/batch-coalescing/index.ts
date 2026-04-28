@@ -11,7 +11,7 @@ interface BatchOptions {
 
 class BatchCoalescer<T, R> {
   private queue: Array<{ item: T; resolve: (result: R) => void; reject: (error: Error) => void }> = [];
-  private timer: NodeJS.Timeout | null = null;
+  private timer: ReturnType<typeof setTimeout> | null = null;
 
   constructor(
     private processor: (items: T[]) => Promise<R[]>,
