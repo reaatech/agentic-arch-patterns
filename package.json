@@ -51,6 +51,6 @@
     "url": "https://github.com/reaatech/agentic-arch-patterns/issues"
   },
   "dependencies": {
-    "libphonenumber-js": "^1.12.42"
+    "libphonenumber-js": "^1.12.43"
   }
 }
